@@ -1,4 +1,4 @@
-# ❄️ Arctic Analytics — Real-Time Robot Telemetry & AI-Driven Feedback
+# ❄️ Arctic Analytics 
 
 Arctic Analytics is a real-time robotics telemetry and data analytics system built for **UTRA Hacks 2026**.  
 It combines **Arduino-based sensor logging**, a **live web dashboard**, and an **AI voice mascot powered by ElevenLabs** to transform raw robot data into intuitive, actionable insights.
@@ -174,6 +174,3 @@ Team **6 Penguins**
 * Jaran Khalid
 * Catherine Susilo
 * Yuhan Xu
-
-Just tell me 👀
-```
