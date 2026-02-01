@@ -1,0 +1,15 @@
+# Environment variables (contains secrets)
+.env
+dashboard/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dashboard/node_modules/
+
+# Temp
+temp_repo/
+*.log
