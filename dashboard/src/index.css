@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ice-50: #f0f9ff;
+  --color-ice-100: #e0f2fe;
+  --color-ice-200: #b8d4e0;
+  --color-ice-300: #7dd3fc;
+  --color-ice-400: #38bdf8;
+  --color-ice-500: #0ea5e9;
+  --color-frost: #e8f4f8;
+  --color-snow: #fafcfd;
+  --color-midnight: #0f172a;
+  --color-navy: #1e293b;
+  --color-gold: #fbbf24;
+  --color-silver: #94a3b8;
+  --color-bronze: #d97706;
+}
+
+body {
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Snowflake animation */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-20px) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(calc(100vh + 20px)) translateX(30px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  animation: snowfall linear infinite;
+  z-index: 1;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
