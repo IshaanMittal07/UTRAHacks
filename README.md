@@ -1,8 +1,12 @@
+Here you go — I’ve cleanly removed **all website-related references** while keeping everything else coherent and polished:
+
+---
+
 # Arctic Analysis
 
 **UTRA Hacks 2026**
 
-Arctic Analytics is a robotics and data analytics project built at **UTRA Hacks 2026**. The system combines a robot that navigates a winter biathlon-style track with a web-based analytics platform that visualizes sensor data and provides AI-driven feedback for future performance improvements.
+Arctic Analytics is a robotics and data analytics project built at **UTRA Hacks 2026**. The system focuses on a robot that navigates a winter biathlon-style track while collecting sensor data to generate AI-driven feedback for future performance improvements.
 
 ---
 
@@ -15,18 +19,7 @@ Our robot collects real-time sensor data while navigating the track, including:
 * Line-following data
 * Color detection data
 
-This data is stored, analyzed, and visualized through our website dashboard. Generative AI is then used to interpret the data and generate actionable insights, which can also be delivered through text-to-speech.
-
----
-
-## 🌐 Web Dashboard
-
-We built a web-based analytics dashboard that:
-
-* Displays live and historical robot sensor data
-* Visualizes metrics such as speed, distance, color detection, and line following
-* Connects directly to MongoDB for data storage and retrieval
-* Uses AI-generated insights to explain robot performance and suggest improvements
+This data is stored and analyzed to extract insights about the robot’s performance. 
 
 ---
 
@@ -50,27 +43,8 @@ The robot is powered by Arduino-based firmware and includes:
 
 ---
 
-## 🗄️ Data & AI Stack
-
-### MongoDB
-
-* Used as the primary database for storing robot sensor data
-* Flexible schema enabled fast iteration during the hackathon
-* Powers the analytics dashboard
-
-### ElevenLabs
-
-* Used for text-to-speech generation
-* Converts AI-generated feedback into natural spoken explanations
-* Improves accessibility and usability of analytics insights
-
----
-
 ## 🚀 Future Improvements!
 
-* Real-time AI feedback during robot operation
-* Enhanced anomaly detection and performance optimization
-* Expanded analytics and run-to-run comparisons
 * Improved autonomy and navigation accuracy
 
 ---
