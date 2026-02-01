@@ -66,7 +66,7 @@ The robot is powered by Arduino-based firmware and includes:
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Improvements!
 
 * Real-time AI feedback during robot operation
 * Enhanced anomaly detection and performance optimization
