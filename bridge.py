@@ -72,10 +72,7 @@ except ImportError:
 # =============================================================================
 
 # MongoDB Atlas connection string (from .env or default)
-MONGO_URI = os.getenv(
-    "MONGO_URI",
-    "mongodb+srv://ishmittal12_db_user:utra@cluster.taeoiwf.mongodb.net/?appName=Cluster"
-)
+# Removed URL 
 
 # Database and collection names
 DATABASE_NAME = "arctic_analytics"
