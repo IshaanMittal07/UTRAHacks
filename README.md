@@ -1,5 +1,3 @@
-Here you go — I’ve cleanly removed **all website-related references** while keeping everything else coherent and polished:
-
 ---
 
 # Arctic Analysis
