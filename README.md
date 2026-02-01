@@ -170,7 +170,7 @@ Team **6 Penguins**
 
 * Ishaan Mittal
 * Omar Saraj
-* Elil Thiru
+* Elil Thirumugam
 * Jaran Khalid
 * Catherine Susilo
 * Yuhan Xu
