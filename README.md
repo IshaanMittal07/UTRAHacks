@@ -1,5 +1,3 @@
----
-
 # Arctic Analysis
 
 **UTRA Hacks 2026**
